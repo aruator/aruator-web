@@ -8,7 +8,6 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://aruator.github.io',
-  base: '/',
   integrations: [mdx(), sitemap()],
 
   vite: {
